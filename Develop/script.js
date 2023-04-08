@@ -4,7 +4,7 @@ $(document).ready(function(){
   //var saveBtn  = document.querySelectorAll(".saveBtn");
 });
  
-document.querySelector(".saveBtn").addEventListener("click", e => {
+document.querySelectorAll(".saveBtn").addEventListener("click", e => {
 console.log("this");
 
  });
